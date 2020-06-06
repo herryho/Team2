@@ -9,14 +9,53 @@
 3. 在可调用函数里要有合理的检查；操作成功要触发事件；
 4. 附加题不是必答的，但可以酌情加分。
 
-**第一题：实现存证模块的功能，包括：**
+
+**第零题：实现存证模块的功能
+
+<1> 成功编译程序
+![sucessfully_compiled](lesson2-screenshots/sucessfully_compiled.jpg)
+
+<2> 成功出块
+![backend_blocking](lesson2-screenshots/backend_blocking.jpg)
+
+<3> polkadot.js前端成功监测出块
+![frontend_blocking](lesson2-screenshots/frontend_blocking.jpg)
+
+
+**第一、二题：实现存证模块的功能，包括：**
 
 * 创建存证，可调用函数所接收参数为内容的哈希值 Vec<u8>；
-* 撤销存证，可调用函数所接收参数为内容的哈希值 Vec<u8>。
 
-**第二题：为存证模块添加新的功能，**
+<1> Alice创建存证
+![Alice_create_claim](lesson2-screenshots/Alice_create_claim.jpg)
+
 
 * 转移存证，接收两个参数，一个是内容的哈希值，另一个是存证的接收账户地址；当存证不存在或者发送请求的用户不是存证内容的拥有人时，返回错误；当所有的检查通过后，更新对应的存证记录，并触发一个事件。
+
+<1> Alice转移错误的存证给Bob
+![Alice_transfer_wrong_claim_to_Bob](lesson2-screenshots/Alice_transfer_wrong_claim_to_Bob.jpg)
+
+<2> Bob转移Alice的存证给别人
+![Bob_transfer_others_claim](lesson2-screenshots/Bob_transfer_others_claim.jpg)
+
+<3> Alice转移正确的存证给Bob
+![Alice_transfer_right_claim_to_Bob](lesson2-screenshots/Alice_transfer_right_claim_to_Bob.jpg)
+
+
+
+* 撤销存证，可调用函数所接收参数为内容的哈希值 Vec<u8>。
+
+<1> Alice撤销Bob的存证
+![Alice_revoke_bobs_claim](lesson2-screenshots/Alice_revoke_bobs_claim.jpg)
+
+<2> Bob撤销错误的存证
+![Bob_revoke_wrong_claim](lesson2-screenshots/Bob_revoke_wrong_claim.jpg)
+
+<3> Bob撤销正确的存证
+![Bob_revoke_right_claim](lesson2-screenshots/Bob_revoke_right_claim.jpg)
+
+
+
 
 **第三题（附加题）：**
 
