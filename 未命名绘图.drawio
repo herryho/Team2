@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-13T04:12:25.306Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="pUO_yyNnP_gnvBB7HZsO" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-13T04:14:16.496Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Gq0SRmPenC1ff4aDoN7V" version="13.10.4" type="github">
   <diagram id="olsCMPtqraf0bEt5MY2M" name="第 1 页">
     <mxGraphModel dx="1068" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="-aLN6X7dPuGZRPEmoPAd-1" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="30" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-aLN6X7dPuGZRPEmoPAd-2" value="在Bifrost将原生POS币铸造成vtoken" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-aLN6X7dPuGZRPEmoPAd-2" value="在Bifrost将原生token铸造成vtoken" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-aLN6X7dPuGZRPEmoPAd-3" value="&lt;ul&gt;&lt;li&gt;根据兑换价，按用户新入的token比例增加vtoken发行量&lt;/li&gt;&lt;li&gt;将新加入的vtoken-token成对记入兑换池内&lt;/li&gt;&lt;li&gt;将新增票权放入Bifrost竞拍池内&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
@@ -22,16 +22,16 @@
         <mxCell id="-aLN6X7dPuGZRPEmoPAd-6" value="此处省略一万字" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-aLN6X7dPuGZRPEmoPAd-7" value="&lt;ul&gt;&lt;li&gt;&lt;span&gt;Bifrost将票stake给价高获选的矿工/validator&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;每天以POS原生币形式扣除validator承诺的返利&lt;/li&gt;&lt;li&gt;将返利放到vtoken-token池内，此时vtoken对token汇率上升&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="-aLN6X7dPuGZRPEmoPAd-7" value="&lt;ul&gt;&lt;li&gt;&lt;span&gt;Bifrost将票权stake给价高获选的矿工/validator&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;每天以原生token形式扣除validator承诺的返利&lt;/li&gt;&lt;li&gt;将返利的token放到vtoken-token池内，此时vtoken对token汇率上升&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="270" y="260" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-aLN6X7dPuGZRPEmoPAd-8" value="&lt;span style=&quot;font-size: 36px&quot;&gt;躺赚&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="275" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-aLN6X7dPuGZRPEmoPAd-9" value="Validator/矿工" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="30" width="30" height="60" as="geometry" />
+          <mxGeometry x="651.5" y="30" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-aLN6X7dPuGZRPEmoPAd-10" value="在交易所将vtoken按现时交易价变现成原生POS币，获利离场" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-aLN6X7dPuGZRPEmoPAd-10" value="在交易所将vtoken按现时交易价变现成原生token，获利离场" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-aLN6X7dPuGZRPEmoPAd-11" value="&lt;ul&gt;&lt;li&gt;Bifrost提供vTokenSwap交易池&lt;/li&gt;&lt;li&gt;Bifrost在其它去中心化交易所也建立了交易池，如uniswap,DoDo等&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
